@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'NMCGExtension_Example' do
+  pod 'NMCGExtension', :path => '../'
+
+  target 'NMCGExtension_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
