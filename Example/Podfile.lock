@@ -1,0 +1,16 @@
+PODS:
+  - NMCGExtension (0.0.1)
+
+DEPENDENCIES:
+  - NMCGExtension (from `../`)
+
+EXTERNAL SOURCES:
+  NMCGExtension:
+    :path: ../
+
+SPEC CHECKSUMS:
+  NMCGExtension: 8afa72418a05b61cdca4aadfe32389eedba2b163
+
+PODFILE CHECKSUM: 7af68793aee3e65f8ee56ed25e2d8e64a2b422ac
+
+COCOAPODS: 1.1.1

@@ -1,4 +1,5 @@
 use_frameworks!
+platform :ios, '9.0'
 
 target 'NMCGExtension_Example' do
   pod 'NMCGExtension', :path => '../'
