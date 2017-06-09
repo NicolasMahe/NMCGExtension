@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'NMCGExtension'
-  s.version          = '0.0.1'
+  s.version          = '0.0.2'
   s.summary          = 'Extension on CoreGraphics'
   s.description      = <<-DESC
 Add some nice things to CoreGraphics.
