@@ -79,7 +79,7 @@ extension CGSize {
   /**
    Init with the same size for both width and height
    */
-  init(size: CGFloat) {
+  public init(size: CGFloat) {
     self.init(
       width: size,
       height: size
@@ -89,7 +89,7 @@ extension CGSize {
   /**
    Modify on the fly a CGSize
    */
-  func set(width: CGFloat? = nil, height: CGFloat? = nil) -> CGSize {
+  public func set(width: CGFloat? = nil, height: CGFloat? = nil) -> CGSize {
     return CGSize(
       width: width ?? self.width,
       height: height ?? self.height
@@ -99,7 +99,7 @@ extension CGSize {
   /**
    Add value on the fly to a CGSize
    */
-  func add(width: CGFloat? = nil, height: CGFloat? = nil) -> CGSize {
+  public func add(width: CGFloat? = nil, height: CGFloat? = nil) -> CGSize {
     return CGSize(
       width: self.width + (width ?? 0.0),
       height: self.height + (height ?? 0.0)
